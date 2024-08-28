@@ -1,0 +1,42 @@
+body {
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#quote-box {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+}
+
+#text {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#author {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+button, a {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+}
+
+button:hover, a:hover {
+  background-color: #21a1f1;
+}
